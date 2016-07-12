@@ -37,6 +37,8 @@ Output data format:
 # Reference
 Hu, Bin, Wei Wang, Shujun Ou, Jiuyou Tang, Hua Li, Ronghui Che, Zhihua Zhang, et al. “Variation in NRT1.1b Contributes to Nitrate-Use Divergence between Rice Subspecies.” Nat Genet 47, no. 7 (2015): 834-8.
 
+Xu, Fan., Jun. Fang, Shujun Ou, Shaopei Gao, Fengxia Zhang, Lin. Du, Yunhua Xiao, et al. “Variations in CYP78A13 Coding Region Influence Grain Size and Yield in Rice.” Plant Cell Environ 38, no. 4 (2014): 800-11.
+
 libsequence::PolySNP.c/ThetaPi. https://molpopgen.github.io/libsequence/doc/html/classSequence_1_1PolySNP.html#a9c26d27c7b0aaf1faf859272871b3cf5
 
 Wikipedia. https://en.wikipedia.org/wiki/Nucleotide_diversity
