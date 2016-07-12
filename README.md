@@ -1,7 +1,7 @@
 # ThetaPi
 Nucleotide diversity (Tajima's Pi) estimation using population SNP data. Refer to Nei and Li (1979) and libsequence.
+Apply missing rate screening for input data. Population size of a SNP is adjusted by the presence of individuals without missing.
 
-  \[ \widehat\theta_\pi=\sum_{i=1}^{i=S}(1-\sum_{j=1}^{j=4}\frac{k_{j,i} \times (k_{j,i}-1)}{n_i \times (n_i - 1)});k_{j,i}>0 \]
 
    Usage: $ perl ThetaPi.ori.pl infile missing_rate(o*) window_size(o) start_site(o) > outfile
           * o: optional
