@@ -1,5 +1,5 @@
 # What's this
-This is a PERL script that was written for nucleotide diversity (Tajima's Pi) estimation using population SNP data. Refer to Nei and Li (1979) and libsequence::PolySNP.c/ThetaPi.
+This is a PERL script for nucleotide diversity (Tajima's Pi) estimation using population SNP data. Concepts and equations refer to Nei and Li (1979) and libsequence::PolySNP.c/ThetaPi.
 
 Works for homozygous SNPs, heterozygous SNPs have not yet been taken care of.
 
