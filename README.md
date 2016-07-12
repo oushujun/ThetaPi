@@ -16,7 +16,7 @@ $ perl ThetaPi.ori.pl infile missing_rate(o*) window_size(o) start_site(o) > out
 
 	- start_site: int, >=0, default: 0, which means start calculating from the first site in the sequence. 1 from position 1.
 
-eg: $ perl ThetaPi.ori.pl sample -m0.90 -w100 -s1 > sample.pi
+eg: $ perl ~/work/bin/ThetaPi_v2.pl sample -m0.9 -w1000 -s0 > sample.pi
 
 Input data format:
 
