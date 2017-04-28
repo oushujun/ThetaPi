@@ -16,9 +16,12 @@ $ perl ThetaPi.ori.pl infile missing_rate(o*) window_size(o) start_site(o) > out
 
 	- start_site: int, >=0, default: 0, which means start calculating from the first site in the sequence. 1 from position 1.
 
-eg: $ perl ~/work/bin/ThetaPi_v2.pl sample -m0.9 -w1000 -s0 > sample.pi
+eg: $ perl ThetaPi_v2.pl example.sd1.gt.txt -m0.8 -w100 -s0 > example.sd1.gt.txt.pi
 
-Input data format:
+# Input and Output
+For the genotype file input, lines started with '#' is the annotation line, which will be ignored by the script. Each row is for one locus, either polymorphic or invariable, with the locus coordinate stated at the first position of the row. Between rows, the coordinates do not need to be continuous but must be in the ascending numerical order. Genotypes are denoted using the IUPAC rule with one letter denotes the genotype. Each column represents the sequence of one individual. You can put as many individuals in this table and all of them together will be considered a single population.
+
+Input file looks like (please see the example.sd1.gt.txt file as an example):
 
 	#Position Ind1 Ind2 Ind3 ... Indn
 
