@@ -1,9 +1,9 @@
 # What's this
 This is a PERL script for nucleotide diversity (Tajima's Pi) estimation using population SNP data. Concepts and equations refer to Nei and Li (1979) and libsequence::PolySNP.c/ThetaPi.
 
-Works for homozygous SNPs, heterozygous SNPs have not yet been taken care of.
+Works for homozygous SNPs and heterozygous SNPs, also works for polyploids. Heterozygous and polyploid genotypes should be seperated by slashes (/, eg. T/T). Ploidy level is recogized automatically.
 
-Applies missing rate screening for input data. Population size of a SNP is adjusted by the presence of individuals without missing.
+Applies missing rate screening for input data. Population size of a SNP is adjusted by the presence of individuals without missing data.
 
 # How to use
 $ perl ThetaPi.ori.pl infile missing_rate(o*) window_size(o) start_site(o) > outfile
