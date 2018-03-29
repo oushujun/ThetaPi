@@ -6,7 +6,7 @@ Works for homozygous SNPs and heterozygous SNPs, also works for polyploids. Hete
 Applies missing rate screening for input data. Population size of a SNP is adjusted by the presence of individuals without missing data.
 
 # How to use
-$ perl ThetaPi.ori.pl infile missing_rate(o*) window_size(o) start_site(o) > outfile
+$ perl ThetaPi_v3.pl infile missing_rate(o*) window_size(o) start_site(o) > outfile
 
 	* o: optional
 
@@ -16,7 +16,7 @@ $ perl ThetaPi.ori.pl infile missing_rate(o*) window_size(o) start_site(o) > out
 
 	- start_site: int, >=0, default: 0, which means start calculating from the first site in the sequence. 1 from position 1.
 
-eg: $ perl ThetaPi_v2.pl example.sd1.gt.txt -m0.8 -w100 -s0 > example.sd1.gt.txt.pi
+eg: $ perl ThetaPi_v3.pl example.sd1.gt.txt -m0.8 -w100 -s0 > example.sd1.gt.txt.pi
 
 # Input and Output
 For the genotype file input, lines started with '#' is the annotation line, which will be ignored by the script. Each row is for one locus, either polymorphic or invariable, with the locus coordinate stated at the first position of the row. Between rows, the coordinates do not need to be continuous but must be in the ascending numerical order. Genotypes are denoted using the IUPAC rule with one letter denotes the genotype. Each column represents the sequence of one individual. You can put as many individuals in this table and all of them together will be considered a single population.
